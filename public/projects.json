@@ -1,0 +1,32 @@
+[
+    {
+      "title": "Incolink",
+      "timeline": "Oct 2024 - Jan 2025",
+      "description": "An anonymous social platform for professionals in Bangladesh to combat salary exploitation and job sector unfairness. Fully developed from scratch.",
+      "features": [
+        "Developed frontend with Next.js and backend with Node.js and Express, adhering to best practices.",
+        "Ensured security with HTTP-only cookies and in-memory Redux login persistence.",
+        "Optimized data fetching and state with RTK Query using lazy loading.",
+        "Integrated real-time notifications via Socket.IO.",
+        "Implemented robust validation and error handling using Zod.",
+        "Created reusable UI components with React Hook Form and MUI."
+      ],
+      "technologies": [
+        { "title": "Next.js", "icon": "nextjs-icon" },
+        { "title": "TypeScript", "icon": "typescript-icon" },
+        { "title": "Material UI", "icon": "mui-icon" },
+        { "title": "Node.js", "icon": "nodejs-icon" },
+        { "title": "Express", "icon": "express-icon" },
+        { "title": "RTK Query", "icon": "rtk-query-icon" },
+        { "title": "Socket.IO", "icon": "socketio-icon" },
+        { "title": "Zod", "icon": "zod-icon" },
+        { "title": "MongoDB", "icon": "mongodb-icon" },
+        { "title": "Mongoose", "icon": "mongoose-icon" }
+      ],
+      "links": {
+        "github": "https://github.com/yourname/incolink",
+        "live": "https://incolink.example.com"
+      }
+    }
+  ]
+  

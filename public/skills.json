@@ -1,0 +1,77 @@
+[
+  {
+    "category": "Frontend",
+    "technologies": [
+      { "title": "React", "icon": "SiReact" },
+      { "title": "Next JS", "icon": "SiNextdotjs" },
+      { "title": "Redux Toolkit", "icon": "SiRedux" },
+      { "title": "RTK Query", "icon": "SiRedux" },
+      { "title": "Bootstrap", "icon": "SiBootstrap" },
+      { "title": "TailwindCSS", "icon": "SiTailwindcss" },
+      { "title": "Material UI", "icon": "SiMaterialui" },
+      { "title": "Shadcn", "icon": "SiReact" }
+    ]
+  },
+  {
+    "category": "Backend",
+    "technologies": [
+      { "title": "Node.js", "icon": "SiNodedotjs" },
+      { "title": "Express.js", "icon": "SiExpress" },
+      { "title": "MongoDB", "icon": "SiMongodb" },
+      { "title": "Mongoose", "icon": "SiMongodb" },
+      { "title": "Firebase", "icon": "SiFirebase" },
+      { "title": "Socket.IO", "icon": "SiSocketdotio" }
+    ]
+  },
+  {
+    "category": "Cloud Services",
+    "technologies": [
+      { "title": "AWS", "icon": "SiAmazonaws" },
+      { "title": "S3", "icon": "SiAmazonaws" },
+      { "title": "CloudFront", "icon": "SiAmazonaws" },
+      { "title": "Route 53", "icon": "SiAmazonaws" },
+      { "title": "Amplify", "icon": "SiAmazonaws" },
+      { "title": "EC2", "icon": "SiAmazonaws" }
+    ]
+  },
+  {
+    "category": "DevOps",
+    "technologies": [
+      { "title": "CI/CD", "icon": "SiGithubactions" },
+      { "title": "GitHub Actions", "icon": "SiGithubactions" },
+      { "title": "CDN", "icon": "SiCloudflare" },
+      { "title": "Nginx", "icon": "SiNginx" },
+      { "title": "Automation", "icon": "SiCodefactor" }
+    ]
+  },
+  {
+    "category": "Languages",
+    "technologies": [
+      { "title": "C", "icon": "SiC" },
+      { "title": "C++", "icon": "SiCplusplus" },
+      { "title": "JavaScript", "icon": "SiJavascript" },
+      { "title": "TypeScript", "icon": "SiTypescript" }
+    ]
+  },
+  {
+    "category": "Analytics",
+    "technologies": [
+      { "title": "Google Analytics", "icon": "SiGoogleanalytics" },
+      { "title": "Hotjar", "icon": "SiHotjar" },
+      { "title": "Microsoft Clarity", "icon": "SiMicrosoft" }
+    ]
+  },
+  {
+    "category": "Tools & Platforms",
+    "technologies": [
+      { "title": "Git", "icon": "SiGit" },
+      { "title": "GitHub", "icon": "SiGithub" },
+      { "title": "Figma", "icon": "SiFigma" },
+      { "title": "Trello", "icon": "SiTrello" },
+      { "title": "Jira", "icon": "SiJirasoftware" },
+      { "title": "Confluence", "icon": "SiConfluence" },
+      { "title": "Vercel", "icon": "SiVercel" },
+      { "title": "Cpanel", "icon": "SiCpanel" }
+    ]
+  }
+]

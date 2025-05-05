@@ -1,19 +1,17 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./App.jsx";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { RouterProvider } from "react-router-dom";
+import router from "./Routes/Routes.jsx";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App></App>,
-  },
-]);
+
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
+    <div className="w-9/12 mx-auto bg-gradient-to-br from-[#1e1e2f] via-[#2a2a3d] to-[#1e1e2f]">
+
     <RouterProvider router={router} />
-    {/* <App /> */}
+    
+    </div>
   </StrictMode>
 );
