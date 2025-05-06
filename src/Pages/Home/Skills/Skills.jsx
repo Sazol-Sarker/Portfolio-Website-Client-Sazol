@@ -18,8 +18,8 @@ const Skills = () => {
   return (
     <>
       <title>Portfolio | Skills</title>
-      <div id="skills" className="w-5/6 mx-auto">
-        <h2 className="text-xl md:text-2xl font-bold text-white text-center mb-5">
+      <div id="skills" className="w-full mx-auto mt-15">
+        <h2 className="text-xl md:text-3xl font-bold text-white text-center mb-5">
           Skills
         </h2>
 

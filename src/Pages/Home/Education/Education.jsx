@@ -12,8 +12,8 @@ const Education = () => {
   }, []);
 
   return (
-    <div className="mt-10">
-      <h2 className="text-white text-center text-2xl font-bold mb-8">Education</h2>
+    <div id="education" className="mt-10">
+      <h2 className="text-white text-center text-xl md:text-3xl font-bold mb-8">Education</h2>
 
       <div className="flex flex-col gap-6 m-4 w-5/6 mx-auto">
         {education.map((edu, idx) => (
