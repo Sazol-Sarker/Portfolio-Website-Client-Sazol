@@ -1,0 +1,29 @@
+[
+  {
+    "institution": "Rajshahi University of Engineering & Technology",
+    "location": "RAJSHAHI-6204, Bangladesh",
+    "startDate": "Jan 2018",
+    "endDate": "Sept 2023",
+    "certificate": "B.Sc in Computer Science & Engineering",
+    "grade": "CGPA - 3.51",
+    "scale": "Out of 4.00"
+  },
+  {
+    "institution": "Police Lines College, Rangpur",
+    "location": "RANGPUR, Bangladesh",
+    "startDate": "Jan 2015",
+    "endDate": "Dec 2017",
+    "certificate": "Higher Secondary School Certificate",
+    "grade": "GPA - 5.00",
+    "scale": "Out of 5.00"
+  },
+  {
+    "institution": "Durgapur High School, Kurigram",
+    "location": "RANGPUR, Bangladesh",
+    "startDate": "Jan 2011",
+    "endDate": "Dec 2015",
+    "certificate": "Secondary School Certificate",
+    "grade": "GPA - 5.00",
+    "scale": "Out of 5.00"
+  }
+]

@@ -1,32 +1,250 @@
 [
-    {
-      "title": "Incolink",
-      "timeline": "Oct 2024 - Jan 2025",
-      "description": "An anonymous social platform for professionals in Bangladesh to combat salary exploitation and job sector unfairness. Fully developed from scratch.",
-      "features": [
-        "Developed frontend with Next.js and backend with Node.js and Express, adhering to best practices.",
-        "Ensured security with HTTP-only cookies and in-memory Redux login persistence.",
-        "Optimized data fetching and state with RTK Query using lazy loading.",
-        "Integrated real-time notifications via Socket.IO.",
-        "Implemented robust validation and error handling using Zod.",
-        "Created reusable UI components with React Hook Form and MUI."
-      ],
-      "technologies": [
-        { "title": "Next.js", "icon": "nextjs-icon" },
-        { "title": "TypeScript", "icon": "typescript-icon" },
-        { "title": "Material UI", "icon": "mui-icon" },
-        { "title": "Node.js", "icon": "nodejs-icon" },
-        { "title": "Express", "icon": "express-icon" },
-        { "title": "RTK Query", "icon": "rtk-query-icon" },
-        { "title": "Socket.IO", "icon": "socketio-icon" },
-        { "title": "Zod", "icon": "zod-icon" },
-        { "title": "MongoDB", "icon": "mongodb-icon" },
-        { "title": "Mongoose", "icon": "mongoose-icon" }
-      ],
-      "links": {
-        "github": "https://github.com/yourname/incolink",
-        "live": "https://incolink.example.com"
+  {
+    "title": "Bistro Boss Restaurant (MERN)",
+    "timeline": "Jul 2024 – Present",
+    "description": "A full-featured restaurant backend with role-based admin control, secure payment integrations, real-time statistics, and transactional messaging support.",
+    "features": [
+      "Built RESTful backend using Express.js with MongoDB via Mongoose.",
+      "Implemented JWT-based authentication and role-based access with admin/user routes.",
+      "Integrated Stripe and SSLCommerz for international and local payments.",
+      "Built admin dashboard stats (revenue, orders, users, menu) using MongoDB aggregation pipelines.",
+      "Enabled user-specific statistics like total spending, order count, and reviews.",
+      "Applied middleware for token verification (verifyToken) and admin checks (verifyAdmin).",
+      "Used Mailgun API to send transactional emails for reservations and contacts.",
+      "Protected forms with Google reCAPTCHA v2 and enabled CORS for Firebase frontend.",
+      "Created full CRUD APIs for menus, carts, users, payments, reviews, and reservations."
+    ],
+    "technologies": [
+      {
+        "title": "React",
+        "icon": "SiReact"
+      },
+      {
+        "title": "Node.js",
+        "icon": "SiNodedotjs"
+      },
+      {
+        "title": "Express",
+        "icon": "SiExpress"
+      },
+      {
+        "title": "MongoDB",
+        "icon": "SiMongodb"
+      },
+      {
+        "title": "Firebase",
+        "icon": "SiFirebase"
+      },
+      {
+        "title": "JWT",
+        "icon": ""
+      },
+      {
+        "title": "Stripe",
+        "icon": ""
+      },
+      {
+        "title": "SSLCommerz",
+        "icon": ""
+      },
+      {
+        "title": "reCAPTCHA v2",
+        "icon": ""
       }
+    ],
+    "links": {
+      "live": "https://bistro-boss-restaurant-2e856.web.app/",
+      "client": "https://github.com/Sazol-Sarker/bistro-boss-restaurant-client.git",
+      "server": "https://github.com/Sazol-Sarker/bistro-boss-restaurant-server.git"
     }
-  ]
-  
+  },
+  {
+    "title": "Bistro Boss Restaurant (MERN)",
+    "timeline": "Jul 2024 – Present",
+    "description": "A full-featured restaurant backend with role-based admin control, secure payment integrations, real-time statistics, and transactional messaging support.",
+    "features": [
+      "Built RESTful backend using Express.js with MongoDB via Mongoose.",
+      "Implemented JWT-based authentication and role-based access with admin/user routes.",
+      "Integrated Stripe and SSLCommerz for international and local payments.",
+      "Built admin dashboard stats (revenue, orders, users, menu) using MongoDB aggregation pipelines.",
+      "Enabled user-specific statistics like total spending, order count, and reviews.",
+      "Applied middleware for token verification (verifyToken) and admin checks (verifyAdmin).",
+      "Used Mailgun API to send transactional emails for reservations and contacts.",
+      "Protected forms with Google reCAPTCHA v2 and enabled CORS for Firebase frontend.",
+      "Created full CRUD APIs for menus, carts, users, payments, reviews, and reservations."
+    ],
+    "technologies": [
+      {
+        "title": "Node.js",
+        "icon": "SiNodedotjs"
+      },
+      {
+        "title": "Express",
+        "icon": "SiExpress"
+      },
+      {
+        "title": "MongoDB",
+        "icon": "SiMongodb"
+      },
+      {
+        "title": "Mongoose",
+        "icon": "SiMongodb"
+      },
+      {
+        "title": "JWT",
+        "icon": ""
+      },
+      {
+        "title": "Stripe",
+        "icon": ""
+      },
+      {
+        "title": "SSLCommerz",
+        "icon": ""
+      },
+      {
+        "title": "Mailgun",
+        "icon": ""
+      },
+      {
+        "title": "reCAPTCHA v2",
+        "icon": ""
+      },
+      {
+        "title": "Firebase",
+        "icon": "SiFirebase"
+      }
+    ],
+    "links": {
+      "live": "https://bistro-boss-restaurant-2e856.web.app/",
+      "client": "https://github.com/Sazol-Sarker/bistro-boss-restaurant-client.git",
+      "server": "https://github.com/Sazol-Sarker/bistro-boss-restaurant-server.git"
+    }
+  },
+  {
+    "title": "Bistro Boss Restaurant (MERN)",
+    "timeline": "Jul 2024 – Present",
+    "description": "A full-featured restaurant backend with role-based admin control, secure payment integrations, real-time statistics, and transactional messaging support.",
+    "features": [
+      "Built RESTful backend using Express.js with MongoDB via Mongoose.",
+      "Implemented JWT-based authentication and role-based access with admin/user routes.",
+      "Integrated Stripe and SSLCommerz for international and local payments.",
+      "Built admin dashboard stats (revenue, orders, users, menu) using MongoDB aggregation pipelines.",
+      "Enabled user-specific statistics like total spending, order count, and reviews.",
+      "Applied middleware for token verification (verifyToken) and admin checks (verifyAdmin).",
+      "Used Mailgun API to send transactional emails for reservations and contacts.",
+      "Protected forms with Google reCAPTCHA v2 and enabled CORS for Firebase frontend.",
+      "Created full CRUD APIs for menus, carts, users, payments, reviews, and reservations."
+    ],
+    "technologies": [
+      {
+        "title": "Node.js",
+        "icon": "SiNodedotjs"
+      },
+      {
+        "title": "Express",
+        "icon": "SiExpress"
+      },
+      {
+        "title": "MongoDB",
+        "icon": "SiMongodb"
+      },
+      {
+        "title": "Mongoose",
+        "icon": "SiMongodb"
+      },
+      {
+        "title": "JWT",
+        "icon": ""
+      },
+      {
+        "title": "Stripe",
+        "icon": ""
+      },
+      {
+        "title": "SSLCommerz",
+        "icon": ""
+      },
+      {
+        "title": "Mailgun",
+        "icon": ""
+      },
+      {
+        "title": "reCAPTCHA v2",
+        "icon": ""
+      },
+      {
+        "title": "Firebase",
+        "icon": "SiFirebase"
+      }
+    ],
+    "links": {
+      "live": "https://bistro-boss-restaurant-2e856.web.app/",
+      "client": "https://github.com/Sazol-Sarker/bistro-boss-restaurant-client.git",
+      "server": "https://github.com/Sazol-Sarker/bistro-boss-restaurant-server.git"
+    }
+  },
+  {
+    "title": "Bistro Boss Restaurant (MERN)",
+    "timeline": "Jul 2024 – Present",
+    "description": "A full-featured restaurant backend with role-based admin control, secure payment integrations, real-time statistics, and transactional messaging support.",
+    "features": [
+      "Built RESTful backend using Express.js with MongoDB via Mongoose.",
+      "Implemented JWT-based authentication and role-based access with admin/user routes.",
+      "Integrated Stripe and SSLCommerz for international and local payments.",
+      "Built admin dashboard stats (revenue, orders, users, menu) using MongoDB aggregation pipelines.",
+      "Enabled user-specific statistics like total spending, order count, and reviews.",
+      "Applied middleware for token verification (verifyToken) and admin checks (verifyAdmin).",
+      "Used Mailgun API to send transactional emails for reservations and contacts.",
+      "Protected forms with Google reCAPTCHA v2 and enabled CORS for Firebase frontend.",
+      "Created full CRUD APIs for menus, carts, users, payments, reviews, and reservations."
+    ],
+    "technologies": [
+      {
+        "title": "Node.js",
+        "icon": "SiNodedotjs"
+      },
+      {
+        "title": "Express",
+        "icon": "SiExpress"
+      },
+      {
+        "title": "MongoDB",
+        "icon": "SiMongodb"
+      },
+      {
+        "title": "Mongoose",
+        "icon": "SiMongodb"
+      },
+      {
+        "title": "JWT",
+        "icon": ""
+      },
+      {
+        "title": "Stripe",
+        "icon": ""
+      },
+      {
+        "title": "SSLCommerz",
+        "icon": ""
+      },
+      {
+        "title": "Mailgun",
+        "icon": ""
+      },
+      {
+        "title": "reCAPTCHA v2",
+        "icon": ""
+      },
+      {
+        "title": "Firebase",
+        "icon": "SiFirebase"
+      }
+    ],
+    "links": {
+      "live": "https://bistro-boss-restaurant-2e856.web.app/",
+      "client": "https://github.com/Sazol-Sarker/bistro-boss-restaurant-client.git",
+      "server": "https://github.com/Sazol-Sarker/bistro-boss-restaurant-server.git"
+    }
+  }
+]

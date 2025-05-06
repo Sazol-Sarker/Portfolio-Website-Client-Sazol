@@ -18,7 +18,7 @@ const Skills = () => {
   return (
     <>
       <title>Portfolio | Skills</title>
-      <div className="w-5/6 mx-auto">
+      <div id="skills" className="w-5/6 mx-auto">
         <h2 className="text-xl md:text-2xl font-bold text-white text-center mb-5">
           Skills
         </h2>

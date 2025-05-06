@@ -8,7 +8,7 @@ import router from "./Routes/Routes.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <div className="w-9/12 mx-auto bg-gradient-to-br from-[#1e1e2f] via-[#2a2a3d] to-[#1e1e2f]">
+    <div className="bg-gradient-to-br from-[#1e1e2f] via-[#2a2a3d] to-[#1e1e2f]">
 
     <RouterProvider router={router} />
     

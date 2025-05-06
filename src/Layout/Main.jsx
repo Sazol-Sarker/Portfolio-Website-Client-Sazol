@@ -4,11 +4,11 @@ import Footer from "../Components/Footer/Footer";
 
 const Main = () => {
   return (
-    <div>
-      <header>
+    <div className=" ">
+      {/* <header> */}
         <NavBar></NavBar>
-      </header>
-      <main>
+      {/* </header> */}
+      <main className="w-9/12 mx-auto">
         <Outlet></Outlet>
       </main>
       <footer>
