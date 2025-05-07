@@ -1,6 +1,6 @@
 import * as Icons from "react-icons/si";
 const Skill = ({ skill }) => {
-  console.log("skill in skill.jsx", skill);
+  // console.log("skill in skill.jsx", skill);
   return (
     <div className="card bg-[#120E17] w-full max-w-lg mx-auto shadow-sm">
       <div className="card-body text-white">

@@ -2,6 +2,9 @@ import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
 import { HiExternalLink } from "react-icons/hi";
+import { CgWebsite } from "react-icons/cg";
+import { FaGithub } from "react-icons/fa6";
+
 import { Link } from "react-router-dom";
 
 const Projects = () => {
@@ -11,13 +14,13 @@ const Projects = () => {
   // load data
   useEffect(() => {
     axios.get("projects.json").then((res) => {
-      console.log("projects=>", res.data);
+      // console.log("projects=>", res.data);
       setProjects(res.data);
     });
   }, []);
   return (
     <>
-      <title>Portfolio | Projects</title>
+      {/* <title>Portfolio | Projects</title> */}
       <div id="projects" className="my-15">
         <h2 className="text-xl md:text-3xl font-bold text-white text-center mb-5">
           Projects
@@ -71,15 +74,60 @@ const Projects = () => {
 
                 {/* btns */}
                 <div className="flex flex-col md:flex-row gap-4 *:uppercase mt-5">
-                  <button className="btn btn-outline  bg-slate-600/70 text-md md:text-lg text-amber-400 border-none rounded-xl">
-                    Live
-                  </button>
-                  <button className="btn btn-outline bg-slate-600/70 text-md md:text-lg text-amber-400 border-none rounded-xl">
-                    client
-                  </button>
-                  <button className="btn btn-outline bg-slate-600/70 text-md md:text-lg text-amber-400 border-none rounded-xl ">
-                    server
-                  </button>
+                  {project?.links?.live ? (
+                    <button
+                      onClick={() => {
+                        const newTab = window.open(
+                          project?.links?.live,
+                          "_blank",
+                          "noopener, noreferrer"
+                        );
+                        if (newTab) newTab.opener = null;
+                      }}
+                      className="btn btn-outline  bg-slate-600/70 text-md md:text-lg text-amber-400 border-none rounded-xl"
+                    >
+                      Live
+                      <CgWebsite className="text-lg" />
+                    </button>
+                  ) : (
+                    ""
+                  )}
+
+                  {project?.links?.client ? (
+                    <button
+                      onClick={() => {
+                        const newTab = window.open(
+                          project?.links?.client,
+                          "_blank",
+                          "noopener, noreferrer"
+                        );
+                        if (newTab) newTab.opener = null;
+                      }}
+                      className="btn btn-outline bg-slate-600/70 text-md md:text-lg text-amber-400 border-none rounded-xl"
+                    >
+                      client <FaGithub className="text-lg" />
+                    </button>
+                  ) : (
+                    ""
+                  )}
+
+                  {project?.links?.server ? (
+                    <button
+                      onClick={() => {
+                        const newTab = window.open(
+                          project?.links?.server,
+                          "_blank",
+                          "noopener, noreferrer"
+                        );
+                        if (newTab) newTab.opener = null;
+                      }}
+                      className="btn btn-outline bg-slate-600/70 text-md md:text-lg text-amber-400 border-none rounded-xl "
+                    >
+                      server <FaGithub className="text-lg" />
+                    </button>
+                  ) : (
+                    ""
+                  )}
                 </div>
               </div>
             );

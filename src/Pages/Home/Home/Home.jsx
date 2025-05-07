@@ -6,13 +6,15 @@ import Contact from "../Contact/Contact";
 import Education from "../Education/Education";
 import Projects from "../Projects/Projects";
 import Research from '../Research/Research'
+import LeftDrawer from './../LeftDrawer/LeftDrawer';
 
 const Home = () => {
   return (
     <>
-      <title>Sazol Portfolio | Home</title>
+      {/* <title>Sazol Portfolio | Home</title> */}
       <div className="">
         <About></About>
+        {/* <LeftDrawer></LeftDrawer> */}
         <Skills></Skills>
         <Projects></Projects>
         <Education></Education>

@@ -6,7 +6,7 @@ const Education = () => {
 
   useEffect(() => {
     axios.get("education.json").then((res) => {
-      console.log("Education==>", res.data);
+      // console.log("Education==>", res.data);
       setEducation(res.data);
     });
   }, []);
@@ -15,14 +15,14 @@ const Education = () => {
     <div id="education" className="mt-10">
       <h2 className="text-white text-center text-xl md:text-3xl font-bold mb-8">Education</h2>
 
-      <div className="flex flex-col gap-6 m-4 w-5/6 mx-auto">
+      <div className="flex flex-col gap-6 m-4 w-full mx-auto">
         {education.map((edu, idx) => (
           <div
             key={idx}
-            className="relative pl-10 border-l-2 border-slate-600/70 text-white"
+            className="relative pl-5 border-l-2 border-slate-600/70 text-white"
           >
             {/* Timeline Dot */}
-            <div className="absolute -left-2 top-2 w-4 h-4 rounded-full bg-slate-600/70 border-2 border-white" />
+            <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-slate-600/70 border-2 border-white" />
 
             {/* Header Row */}
             <div className="flex flex-col md:flex-row md:justify-between md:items-center">
@@ -35,10 +35,10 @@ const Education = () => {
             </div>
 
             {/* Institution */}
-            <h3 className="text-lg md:text-xl mt-1">{edu.institution}</h3>
+            <h3 className="text-lg md:text-xl mt-1 w-full">{edu.institution}</h3>
 
             {/* Grade */}
-            <div className="inline-block bg-slate-600/70 text-white rounded px-4 py-2 mt-3 text-sm md:text-base">
+            <div className="inline-block bg-slate-600/70 text-white rounded px-1 md:px-4 py-2 mt-3 text-sm md:text-base">
               {edu.grade} {edu.scale}
             </div>
           </div>

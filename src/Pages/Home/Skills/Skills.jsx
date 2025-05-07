@@ -8,7 +8,7 @@ const Skills = () => {
   useEffect(()=>{
     axios.get('skills.json')
     .then(res=>{
-      console.log("Skills==>",res.data);
+      // console.log("Skills==>",res.data);
       setSkills(res.data)
     })
   },[])
@@ -17,8 +17,8 @@ const Skills = () => {
   // map data , render by card
   return (
     <>
-      <title>Portfolio | Skills</title>
-      <div id="skills" className="w-full mx-auto mt-15">
+      {/* <title>Portfolio | Skills</title> */}
+      <div id="skills" className="w-full mx-auto mt-5 md:mt-15">
         <h2 className="text-xl md:text-3xl font-bold text-white text-center mb-5">
           Skills
         </h2>

@@ -1,23 +1,42 @@
-import myDp from "../../../assets/dp.jpg";
+import myDp from "../../../assets/dpPortfolio1.jpg";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 
 const About = () => {
   const [stopTyping, setStopTyping] = useState(false);
-  const CVPdf =
-    "https://drive.google.com/uc?export=download&id=1JTH9LbP-MhzmymndqFtm8E_5niW87E5w";
+  const CVPdf ="https://drive.google.com/file/d/1LT8bBIYcldcnH1XICA8-G4rFHu9iGwz6/view?usp=sharing"
+    // "https://drive.google.com/uc?export=download&id=1JTH9LbP-MhzmymndqFtm8E_5niW87E5w";
+
   return (
-    <div id="about" className="flex w-full ">
+    <div id="about" className="flex w-full justify-center px-4">
       <motion.div
-        initial={{ x: -120 }} // Start off-screen to the left
-        animate={{ x: 0 }} // Move to original position
+        initial={{ x: -120 }}
+        animate={{ x: 0 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
-        className="flex flex-col w-full mx-auto gap-4  *:text-white pt-28 mb-24"
+        className="flex flex-col w-full max-w-5xl gap-6 text-white pt-28 mb-10 md:mb-24"
       >
-        <div className="flex items-center justify-between gap-4">
-          <div>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
+        {/* Mobile Image View */}
+        <div className="md:hidden flex justify-center">
+          <motion.div
+            initial={{ scale: 0.9, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 1.2 }}
+            className="bg-gradient-to-br from-indigo-500/30 to-purple-500/30 p-2 rounded-full shadow-inner"
+          >
+            <img
+              src={myDp}
+              alt="Profile"
+              // border-4 border-white
+              className="w-40 h-40 object-cover rounded-full  shadow-lg shadow-indigo-400/70 transition hover:scale-105 duration-300"
+            />
+          </motion.div>
+        </div>
+
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+          {/* Text Content */}
+          <div className="flex-1">
+            <h2 className="text-xl md:text-3xl lg:text-4xl font-bold">
               {stopTyping ? (
                 "Hi, I'm Sazol Sarker"
               ) : (
@@ -33,51 +52,58 @@ const About = () => {
                 />
               )}
             </h2>
-
-            <p className="text-xl md:text-3xl text-gray-500 font-bold mt-2 md:mt-3">
+            <p className="text-xl md:text-3xl text-gray-400 font-bold mt-2 md:mt-3">
               Software Engineer
             </p>
           </div>
-          {/* <motion.div
-            initial={{ x: 120 }} // Start off-screen to the left
-            animate={{ x: 0 }} // Move to original position
-            transition={{ duration: 1.2, ease: "easeOut" }}
-            className="flex justify-center items-center mt-8"
-          >
-            <img
-              src={myDp}
-              alt="Profile picture"
-              className="w-48 h-48 rounded-full border-8 border-black/50 shadow-xl shadow-black hover:shadow-primary/80 transition duration-300"
-            />
-          </motion.div> */}
 
-          {/* Image Section */}
+          {/* Desktop Image View */}
           <motion.div
             initial={{ x: 120 }}
-            animate={{ x: -5 }}
+            animate={{ x: 0 }}
             transition={{ duration: 1.2, ease: "easeOut" }}
-            className=" hidden md:flex justify-center items-center"
+            className="hidden md:block"
           >
-            <img
-              src={myDp}
-              alt="Profile"
-              className="w-56 h-56 md:w-60 md:h-60 my-5 rounded-full border-4 border-white shadow-[0_0_30px_#6366f1] hover:shadow-[0_0_50px_#6366f1] transition duration-500"
-            />
+            <div className="bg-gradient-to-br from-indigo-500/30 to-purple-500/30 p-2 rounded-full shadow-inner">
+              <img
+                src={myDp}
+                alt="Profile"
+                // border-4 border-white  hover:shadow-indigo-400/70
+                className="w-60 h-60 object-cover rounded-full  shadow-xl shadow-indigo-400/70 transition hover:scale-105 duration-300"
+              />
+            </div>
           </motion.div>
         </div>
 
-        <p className="text-md md:text-2xl">
-          With over 2 years+ of professional experience building and maintaining
+        {/* Description */}
+        <p className="text-md md:text-2xl text-gray-300">
+          {/* With over 2 years+ of professional experience building and maintaining
           full stack web applications. Specialized in React and NextJS along
           with Node and Express with a strong ability to solve problems and
-          quickly learn new tools.
+          quickly learn new tools. */}
+          {/* I’m a passionate full stack developer with over 5 years of programming
+          experience, a strong foundation in problem solving, and 2300+ solved
+          problems across various online judges. I’ve also participated in 150+
+          programming contests. With hands-on project experience using modern
+          frameworks like React, I enjoy building dynamic, high-performance web
+          applications. I specialize in the MERN stack and have implemented
+          Firebase authentication and role-based authorization in production
+          projects. I thrive in fast-paced, innovative environments that value
+          teamwork and continuous learning. */}
+          Built and maintained full stack web applications using the MERN stack,
+          with hands-on experience in React, Firebase authentication, and
+          role-based authorization. With over 5 years of programming experience,
+          solved 2300+ problems, participated in 150+ contests, and developed
+          strong problem-solving and debugging skills. Thrive in fast-paced,
+          innovative environments that value teamwork, continuous learning, and
+          adapting to new technologies.
         </p>
 
-        {/* buttons - about section */}
-        <div className="flex flex-col md:flex-row gap-2">
+        {/* Buttons */}
+        <div className="flex flex-col md:flex-row gap-4">
           <button
             onClick={() => document.getElementById("contact")?.scrollIntoView()}
-            className="btn hover:bg-amber-300"
+            className="btn bg-slate-600/70 hover:bg-amber-300/70 text-slate-100"
           >
             Get in Touch
           </button>
@@ -85,11 +111,14 @@ const About = () => {
             onClick={() =>
               document.getElementById("projects")?.scrollIntoView()
             }
-            className="btn hover:bg-amber-300"
+            className="btn bg-slate-600/70 hover:bg-amber-300/70 text-slate-100"
           >
             View Projects
           </button>
-          <button onClick={() => window.open(CVPdf, "_blank")} className="btn hover:bg-amber-300">
+          <button
+            onClick={() => window.open(CVPdf, "_blank")}
+            className="btn bg-slate-600/70 hover:bg-amber-300/70 text-slate-100"
+          >
             View Resume
           </button>
         </div>

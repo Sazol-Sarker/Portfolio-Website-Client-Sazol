@@ -59,21 +59,21 @@
     }
   },
   {
-    "title": "Bistro Boss Restaurant (MERN)",
-    "timeline": "Jul 2024 – Present",
-    "description": "A full-featured restaurant backend with role-based admin control, secure payment integrations, real-time statistics, and transactional messaging support.",
+    "title": "JobNest Job Portal (MERN)",
+    "timeline": "March 2025",
+    "description": "A responsive job portal website with category-based job listings, secure user authentication, and dynamic job detail navigation.",
     "features": [
-      "Built RESTful backend using Express.js with MongoDB via Mongoose.",
-      "Implemented JWT-based authentication and role-based access with admin/user routes.",
-      "Integrated Stripe and SSLCommerz for international and local payments.",
-      "Built admin dashboard stats (revenue, orders, users, menu) using MongoDB aggregation pipelines.",
-      "Enabled user-specific statistics like total spending, order count, and reviews.",
-      "Applied middleware for token verification (verifyToken) and admin checks (verifyAdmin).",
-      "Used Mailgun API to send transactional emails for reservations and contacts.",
-      "Protected forms with Google reCAPTCHA v2 and enabled CORS for Firebase frontend.",
-      "Created full CRUD APIs for menus, carts, users, payments, reviews, and reservations."
+      "Developed category-specific job post rendering using RESTful APIs and dynamic routing.",
+      "Implemented Firebase Authentication with JWT token setup for secure registration and login.",
+      "Users can browse job categories, view job post details, and apply authentication-gated actions.",
+      "Responsive design ensures cross-device compatibility and optimal UX.",
+      "Protected routes and stored JWT token to enable secure backend communication."
     ],
     "technologies": [
+      {
+        "title": "React",
+        "icon": "SiReact"
+      },
       {
         "title": "Node.js",
         "icon": "SiNodedotjs"
@@ -87,164 +87,205 @@
         "icon": "SiMongodb"
       },
       {
-        "title": "Mongoose",
-        "icon": "SiMongodb"
+        "title": "Firebase",
+        "icon": "SiFirebase"
       },
       {
         "title": "JWT",
         "icon": ""
       },
       {
-        "title": "Stripe",
+        "title": "Tailwind CSS",
         "icon": ""
-      },
-      {
-        "title": "SSLCommerz",
-        "icon": ""
-      },
-      {
-        "title": "Mailgun",
-        "icon": ""
-      },
-      {
-        "title": "reCAPTCHA v2",
-        "icon": ""
-      },
-      {
-        "title": "Firebase",
-        "icon": "SiFirebase"
       }
     ],
     "links": {
-      "live": "https://bistro-boss-restaurant-2e856.web.app/",
-      "client": "https://github.com/Sazol-Sarker/bistro-boss-restaurant-client.git",
-      "server": "https://github.com/Sazol-Sarker/bistro-boss-restaurant-server.git"
+      "live": "https://jobnest-job-portal.web.app/",
+      "client": "https://github.com/Sazol-Sarker/JobNest-Job-Portal-Client.git",
+      "server": "https://github.com/Sazol-Sarker/JobNest-Job-Portal-Server.git"
     }
   },
   {
-    "title": "Bistro Boss Restaurant (MERN)",
-    "timeline": "Jul 2024 – Present",
-    "description": "A full-featured restaurant backend with role-based admin control, secure payment integrations, real-time statistics, and transactional messaging support.",
+    "title": "Dragon Z News (React)",
+    "timeline": "February 2025",
+    "description": "A responsive news blog application that features category-based news filtering, detailed news pages, and secure user authentication using Firebase.",
     "features": [
-      "Built RESTful backend using Express.js with MongoDB via Mongoose.",
-      "Implemented JWT-based authentication and role-based access with admin/user routes.",
-      "Integrated Stripe and SSLCommerz for international and local payments.",
-      "Built admin dashboard stats (revenue, orders, users, menu) using MongoDB aggregation pipelines.",
-      "Enabled user-specific statistics like total spending, order count, and reviews.",
-      "Applied middleware for token verification (verifyToken) and admin checks (verifyAdmin).",
-      "Used Mailgun API to send transactional emails for reservations and contacts.",
-      "Protected forms with Google reCAPTCHA v2 and enabled CORS for Firebase frontend.",
-      "Created full CRUD APIs for menus, carts, users, payments, reviews, and reservations."
+      "Displayed category-specific news dynamically fetched from an external API.",
+      "Implemented Firebase Authentication for secure user sign-up and login.",
+      "Enabled dynamic routing to individual news detail pages upon clicking a news post.",
+      "Applied responsive design principles using Tailwind CSS and DaisyUI components.",
+      "Ensured a clean and accessible UI across all devices."
     ],
     "technologies": [
       {
-        "title": "Node.js",
-        "icon": "SiNodedotjs"
-      },
-      {
-        "title": "Express",
-        "icon": "SiExpress"
-      },
-      {
-        "title": "MongoDB",
-        "icon": "SiMongodb"
-      },
-      {
-        "title": "Mongoose",
-        "icon": "SiMongodb"
-      },
-      {
-        "title": "JWT",
-        "icon": ""
-      },
-      {
-        "title": "Stripe",
-        "icon": ""
-      },
-      {
-        "title": "SSLCommerz",
-        "icon": ""
-      },
-      {
-        "title": "Mailgun",
-        "icon": ""
-      },
-      {
-        "title": "reCAPTCHA v2",
-        "icon": ""
+        "title": "React",
+        "icon": "SiReact"
       },
       {
         "title": "Firebase",
         "icon": "SiFirebase"
+      },
+      {
+        "title": "Tailwind CSS",
+        "icon": ""
+      },
+      {
+        "title": "DaisyUI",
+        "icon": ""
+      },
+      {
+        "title": "HTML",
+        "icon": ""
+      },
+      {
+        "title": "JavaScript",
+        "icon": "SiJavascript"
       }
     ],
     "links": {
-      "live": "https://bistro-boss-restaurant-2e856.web.app/",
-      "client": "https://github.com/Sazol-Sarker/bistro-boss-restaurant-client.git",
-      "server": "https://github.com/Sazol-Sarker/bistro-boss-restaurant-server.git"
+      "live": "https://dragon-z-news.web.app",
+      "client": "https://github.com/Sazol-Sarker/Dragon-Z-News.git"
     }
   },
   {
-    "title": "Bistro Boss Restaurant (MERN)",
-    "timeline": "Jul 2024 – Present",
-    "description": "A full-featured restaurant backend with role-based admin control, secure payment integrations, real-time statistics, and transactional messaging support.",
+    "title": "Boi Poka Library (React)",
+    "timeline": "February 2025",
+    "description": "A responsive online book store built with React and Tailwind CSS, featuring dynamic routing and structured book data display.",
     "features": [
-      "Built RESTful backend using Express.js with MongoDB via Mongoose.",
-      "Implemented JWT-based authentication and role-based access with admin/user routes.",
-      "Integrated Stripe and SSLCommerz for international and local payments.",
-      "Built admin dashboard stats (revenue, orders, users, menu) using MongoDB aggregation pipelines.",
-      "Enabled user-specific statistics like total spending, order count, and reviews.",
-      "Applied middleware for token verification (verifyToken) and admin checks (verifyAdmin).",
-      "Used Mailgun API to send transactional emails for reservations and contacts.",
-      "Protected forms with Google reCAPTCHA v2 and enabled CORS for Firebase frontend.",
-      "Created full CRUD APIs for menus, carts, users, payments, reviews, and reservations."
+      "Fetched and displayed book data from an external API in a clean, grid-based layout.",
+      "Used React Router for dynamic navigation to individual book detail pages.",
+      "Designed a modern and responsive UI using Tailwind CSS for optimal user experience.",
+      "Ensured smooth page transitions and routing without reloading the entire page.",
+      "Focused on clean code and reusable components for scalability."
     ],
     "technologies": [
       {
-        "title": "Node.js",
-        "icon": "SiNodedotjs"
+        "title": "React",
+        "icon": "SiReact"
       },
       {
-        "title": "Express",
-        "icon": "SiExpress"
-      },
-      {
-        "title": "MongoDB",
-        "icon": "SiMongodb"
-      },
-      {
-        "title": "Mongoose",
-        "icon": "SiMongodb"
-      },
-      {
-        "title": "JWT",
+        "title": "React Router",
         "icon": ""
       },
       {
-        "title": "Stripe",
+        "title": "Tailwind CSS",
         "icon": ""
       },
       {
-        "title": "SSLCommerz",
+        "title": "HTML",
         "icon": ""
       },
       {
-        "title": "Mailgun",
-        "icon": ""
-      },
-      {
-        "title": "reCAPTCHA v2",
-        "icon": ""
-      },
-      {
-        "title": "Firebase",
-        "icon": "SiFirebase"
+        "title": "JavaScript",
+        "icon": "SiJavascript"
       }
     ],
     "links": {
-      "live": "https://bistro-boss-restaurant-2e856.web.app/",
-      "client": "https://github.com/Sazol-Sarker/bistro-boss-restaurant-client.git",
-      "server": "https://github.com/Sazol-Sarker/bistro-boss-restaurant-server.git"
+      "live": "https://boipoka17.netlify.app/",
+      "client": "https://github.com/Sazol-Sarker/Boi-Poka-With-React-Router.git"
+    }
+  },
+  {
+    "title": "Sci Knowledge Cafe (React)",
+    "timeline": "January 2025",
+    "description": "A responsive blog platform built with React and Tailwind CSS that allows users to read, bookmark, and track blog interactions in real-time.",
+    "features": [
+      "Displayed a list of author blogs with real-time bookmarking and reading status updates.",
+      "Implemented interactive features such as marking blogs as read and tracking total reading time.",
+      "Displayed dynamic counters for total time spent reading and number of bookmarked posts.",
+      "Responsive UI designed using Tailwind CSS for smooth experience across all devices.",
+      "Used reusable React components for consistent design and maintainability."
+    ],
+    "technologies": [
+      {
+        "title": "React",
+        "icon": "SiReact"
+      },
+      {
+        "title": "Tailwind CSS",
+        "icon": ""
+      },
+      {
+        "title": "HTML",
+        "icon": ""
+      },
+      {
+        "title": "JavaScript",
+        "icon": "SiJavascript"
+      }
+    ],
+    "links": {
+      "live": "https://tiny-stroopwafel-9e8bdf.netlify.app/",
+      "client": "https://github.com/Sazol-Sarker/sci-knowledge-cafe.git"
+    }
+  },
+  {
+    "title": "Image Gallery: Infinity Scroll",
+    "timeline": "June 2024",
+    "description": "A responsive image gallery with infinite scrolling functionality powered by the Unsplash API.",
+    "features": [
+      "Fetched and displayed images from Unsplash API with dynamic loading triggered by user scroll.",
+      "Implemented infinite scroll to automatically load and append new images as the user reaches the bottom of the page.",
+      "Designed responsive layout using Bootstrap 5 for compatibility across devices.",
+      "Optimized performance for API calls and ensured smooth user experience."
+    ],
+    "technologies": [
+      {
+        "title": "HTML",
+        "icon": ""
+      },
+      {
+        "title": "JavaScript",
+        "icon": "SiJavascript"
+      },
+      {
+        "title": "Bootstrap 5",
+        "icon": ""
+      },
+      {
+        "title": "Unsplash API",
+        "icon": ""
+      }
+    ],
+    "links": {
+      "live": "https://sazol-sarker.github.io/Infinite-Scroll/",
+      "client": "https://github.com/Sazol-Sarker/Infinite-Scroll.git"
+    }
+  },
+  {
+    "title": "Train eTicket Reservation",
+    "timeline": "January 2021",
+    "description": "A full-stack online train ticket reservation system with database-driven ticket booking and admin management.",
+    "features": [
+      "Built CRUD functionalities for passenger ticket purchase and cancellation.",
+      "Developed admin panel for system monitoring, including schedule and seat availability management.",
+      "Implemented secure form handling with server-side validation using PHP.",
+      "Connected front-end with MySQL database for real-time data persistence."
+    ],
+    "technologies": [
+      {
+        "title": "HTML",
+        "icon": ""
+      },
+      {
+        "title": "CSS",
+        "icon": ""
+      },
+      {
+        "title": "JavaScript",
+        "icon": "SiJavascript"
+      },
+      {
+        "title": "PHP",
+        "icon": ""
+      },
+      {
+        "title": "MySQL",
+        "icon": ""
+      }
+    ],
+    "links": {
+      "client": "https://github.com/Sazol-Sarker/project-3100-Train-eTicket-Reservation.git"
     }
   }
 ]
